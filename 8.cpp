@@ -61,3 +61,28 @@ for (int i = 0; i < processcount; i++)
 }
 
 }
+
+
+// Enter number of memory blocks: 5
+  // Enter size of each block:
+  // Block 1: 100
+  // Block 2: 500
+  // Block 3: 200
+  // Block 4: 300
+  // Block 5: 600
+
+  // Enter number of processes: 4
+  // Enter size of each process:
+  // Process 1: 212
+  // Process 2: 417
+  // Process 3: 112
+  // Process 4: 426
+
+
+
+ // Process No.    Process Size    Block No.
+ // 1              212             4
+ // 2              417             2
+ // 3              112             3
+ // 4              426             5
+

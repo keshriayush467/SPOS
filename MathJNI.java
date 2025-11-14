@@ -12,7 +12,20 @@ public class MathJNI {
 
 
 // compile Command on ubuntu
-//   javac -h . MathJNI.java
+//  javac MathJNI.java
+
+// Generate C header file 
+// javac -h . MathJNI.java
+
+// Compiler the course file with shared lib 
+ //  gcc -shared -fPIC -I/usr/lib/jvm/java-17-openjdk-amd64/include \
+// -I/usr/lib/jvm/java-17-openjdk-amd64/include/linux \
+// -o libmymath.so MathDLL.c
 
 
-// Generates MathJNI.h file
+// Run java program
+// java -Djava.library.path=. MathDLL
+
+
+
+
